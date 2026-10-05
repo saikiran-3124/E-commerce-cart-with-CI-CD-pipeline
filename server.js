@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 const products = [
-    { id: 1, name: "Laptop", price: 56000 },
+    { id: 1, name: "Laptop", price: 50000 },
     { id: 2, name: "Headphones", price: 2000 },
     { id: 3, name: "Keyboard", price: 1500 },
     { id: 4, name: "Mouse", price: 800 }
